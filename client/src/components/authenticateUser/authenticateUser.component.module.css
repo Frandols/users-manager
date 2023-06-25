@@ -1,0 +1,28 @@
+.authenticateUser {
+  width: 100%;
+  max-width: 375px;
+}
+
+.authenticateUserTitle {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.authenticateUserSubtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(119 125 134);
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  white-space: wrap;
+}
+
+.authenticateUserForm {
+  display: grid;
+  grid-template-rows: auto 40px;
+}
+
+.authenticateUserFormControl {
+  grid-template-rows: 40px 20px;
+}

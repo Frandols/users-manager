@@ -1,0 +1,15 @@
+{
+  "name": "users-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "start": "node server/dist/src/app.js",
+    "build": "cd server && npm run build && cd .. && cd client && npm run build",
+    "install": "cd server && npm install && cd .. && cd client && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,12 @@
+.control {
+  display: grid;
+  grid-template-rows: auto 20px;
+}
+
+.error {
+  line-height: 20px;
+  padding: 0 0.75rem;
+  color: var(--red);
+  font-size: 0.875rem;
+  font-weight: 400;
+}

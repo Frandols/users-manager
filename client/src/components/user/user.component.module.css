@@ -1,0 +1,43 @@
+.user,
+.userSkeleton {
+  background-color: #fff;
+  border: 1px solid rgb(242 245 250);
+  padding: 1rem;
+  border-radius: 1rem;
+  list-style: none;
+  box-shadow: 0 4px 30px rgb(0, 0, 0, 0.05);
+}
+
+.user {
+  font-weight: 700;
+  color: var(--gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  font-size: 1.15rem;
+  line-height: 24px;
+}
+
+.userCreationDate {
+  font-weight: 500;
+  color: var(--gray);
+  line-height: 16px;
+  font-size: 12.5px;
+}
+
+.userActions {
+  display: flex;
+  gap: 0.5rem;
+}

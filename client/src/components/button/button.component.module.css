@@ -1,0 +1,17 @@
+.button {
+  line-height: 1;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.buttonDisabled {
+  opacity: 75%;
+  cursor: not-allowed;
+}
