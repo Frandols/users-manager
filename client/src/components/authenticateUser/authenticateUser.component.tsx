@@ -39,9 +39,9 @@ const authenticateUser = ({ name, onAuthenticate }: AuthenticateUserProps) => {
       transition={{ duration: 0.25 }}
     >
       <h1 className={styles.authenticateUserTitle}>Insert password</h1>
-      <p className={styles.authenticateUserSubtitle}>
+      <h2 className={styles.authenticateUserSubtitle}>
         For executing this action you need user&apos;s corresponding password
-      </p>
+      </h2>
       <Form<AuthenticateUserForm>
         className={styles.authenticateUserForm}
         initialValues={{
