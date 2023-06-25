@@ -12,10 +12,11 @@
   font-size: 1rem;
   font-weight: 400;
   color: rgb(119 125 134);
-  text-align: center;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  text-align: center;
 }
 
 .authenticateUserForm {
