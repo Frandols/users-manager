@@ -6,6 +6,13 @@
   border-bottom: 1px solid rgb(240 243 247);
 }
 
+.headerLink {
+  display: flex;
+  gap: 1rem;
+  text-decoration: none;
+  align-items: center;
+}
+
 .headerTitle {
   color: var(--gray);
   white-space: nowrap;
@@ -20,6 +27,12 @@
 
 @media (max-width: 768px) {
   .headerTitle {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .headerTitle {
+    display: none;
   }
 }
