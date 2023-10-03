@@ -1,26 +1,26 @@
 .users {
-  padding: 0 var(--layout-padding);
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 24px auto;
-  gap: 1rem;
-  margin: 1rem 0;
-  min-height: calc(100vh - 196px);
+	padding: 0 var(--layout-padding);
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 24px auto;
+	gap: 1rem;
+	margin: 1rem 0;
+	min-height: calc(100vh - 97px);
 }
 
 .usersTitle {
-  color: var(--gray);
-  font-size: 1.25rem;
+	color: var(--gray);
+	font-size: 1.25rem;
 }
 
 .usersList {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 1rem;
-  grid-template-rows: repeat(auto-fill, 72px);
-  overflow-y: scroll;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+	gap: 1rem;
+	grid-template-rows: repeat(auto-fill, 74px);
+	overflow-y: scroll;
 }
 
 .usersList::-webkit-scrollbar {
-  display: none;
+	display: none;
 }

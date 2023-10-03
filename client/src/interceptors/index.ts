@@ -1,1 +1,1 @@
-export { default as useAxiosInterceptors } from './axios.interceptors'
+export { default as enableAxiosInterceptors } from './axios.interceptors'
