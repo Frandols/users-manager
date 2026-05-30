@@ -1,12 +1,14 @@
 {
-  "restartable": "rs",
-  "ignore": [".git", "node_modules/", "dist/", "coverage/"],
-  "watch": ["src/"],
-  "execMap": {
-    "ts": "ts-node -r tsconfig-paths/register"
-  },
-  "env": {
-    "NODE_ENV": "development"
-  },
-  "ext": "js,json,ts"
+	"restartable": "rs",
+	"ignore": [".git", "node_modules/", "dist/", "coverage/"],
+	"watch": ["src/"],
+	"execMap": {
+		"ts": "ts-node -r tsconfig-paths/register"
+	},
+	"env": {
+		"NODE_ENV": "development"
+	},
+	"ext": "js,json,ts",
+	"signal": "SIGTERM",
+	"delay": 1000
 }
